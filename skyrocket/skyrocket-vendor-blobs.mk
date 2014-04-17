@@ -105,8 +105,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/samsung/skyrocket/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/samsung/skyrocket/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-	vendor/samsung/skyrocket/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	vendor/samsung/skyrocket/proprietary/bin/thermald:system/bin/thermald \
 	vendor/samsung/skyrocket/proprietary/etc/thermald.conf:system/etc/thermald.conf \
 	vendor/samsung/skyrocket/proprietary/lib/libdsm.so:system/lib/libdsm.so \
