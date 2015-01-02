@@ -106,8 +106,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hercules/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
 	vendor/samsung/hercules/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
 	vendor/samsung/hercules/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/samsung/hercules/proprietary/bin/thermald:system/bin/thermald \
-	vendor/samsung/hercules/proprietary/etc/thermald.conf:system/etc/thermald.conf \
-	vendor/samsung/hercules/proprietary/lib/libdsm.so:system/lib/libdsm.so \
-	vendor/samsung/hercules/proprietary/lib/libthermal_mitigation_fusion.so:system/lib/libthermal_mitigation_fusion.so \
-	vendor/samsung/hercules/proprietary/lib/libthermal_mitigation.so:system/lib/libthermal_mitigation.so
+	vendor/samsung/hercules/proprietary/lib/libdsm.so:system/lib/libdsm.so
