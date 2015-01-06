@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox-common/proprietary/bin/mpdecision:system/bin/mpdecision \
 	vendor/samsung/celox-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/celox-common/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
-	vendor/samsung/celox-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/celox-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 	vendor/samsung/celox-common/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 	vendor/samsung/celox-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
@@ -58,7 +57,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox-common/proprietary/lib/libqueue.so:system/lib/libqueue.so \
 	vendor/samsung/celox-common/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/celox-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-	vendor/samsung/celox-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
 	vendor/samsung/celox-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/celox-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/celox-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
@@ -73,8 +71,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox-common/proprietary/lib/libloc_api-rpc-qc.so:system/lib/libloc_api-rpc-qc.so \
 	vendor/samsung/celox-common/proprietary/lib/libcommondefs.so:system/lib/libcommondefs.so \
 	vendor/samsung/celox-common/proprietary/lib/librpc.so:system/lib/librpc.so \
-	vendor/samsung/celox-common/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
-	vendor/samsung/celox-common/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/celox-common/proprietary/lib/hw/camera.vendor.msm8660.so:system/lib/hw/camera.vendor.msm8660.so \
 	vendor/samsung/celox-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/celox-common/proprietary/lib/libgemini.so:system/lib/libgemini.so \
