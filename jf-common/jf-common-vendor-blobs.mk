@@ -185,4 +185,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/jf-common/proprietary/lib/libTimeService.so:system/lib/libTimeService.so
+    vendor/samsung/jf-common/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
+    vendor/samsung/jf-common/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
+    vendor/samsung/jf-common/proprietary/blobs/cdma/lib/libsec-ril.so:system/blobs/cdma/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
+    vendor/samsung/jf-common/proprietary/blobs/usc/lib/libsec-ril.so:system/blobs/usc/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/blobs/usc/lib/libril.so:system/blobs/usc/lib/libril.so \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b00:system/blobs/vzw/etc/firmware/q6.b00 \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b01:system/blobs/vzw/etc/firmware/q6.b01 \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b03:system/blobs/vzw/etc/firmware/q6.b03 \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b04:system/blobs/vzw/etc/firmware/q6.b04 \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b05:system/blobs/vzw/etc/firmware/q6.b05 \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b06:system/blobs/vzw/etc/firmware/q6.b06 \
+    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.mdt:system/blobs/vzw/etc/firmware/q6.mdt
