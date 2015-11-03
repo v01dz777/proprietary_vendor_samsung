@@ -191,18 +191,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/jf-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/jf-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/samsung/jf-common/proprietary/blobs/gsm/lib/libsec-ril.so:system/blobs/gsm/lib/libsec-ril.so \
-    vendor/samsung/jf-common/proprietary/blobs/gsm/lib/libril.so:system/blobs/gsm/lib/libril.so \
-    vendor/samsung/jf-common/proprietary/blobs/cdma/lib/libsec-ril.so:system/blobs/cdma/lib/libsec-ril.so \
-    vendor/samsung/jf-common/proprietary/blobs/cdma/lib/libril.so:system/blobs/cdma/lib/libril.so \
-    vendor/samsung/jf-common/proprietary/blobs/usc/lib/libsec-ril.so:system/blobs/usc/lib/libsec-ril.so \
-    vendor/samsung/jf-common/proprietary/blobs/usc/lib/libril.so:system/blobs/usc/lib/libril.so \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/lib/libsec-ril.so:system/blobs/vzw/lib/libsec-ril.so \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/lib/libril.so:system/blobs/vzw/lib/libril.so \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b00:system/blobs/vzw/etc/firmware/q6.b00 \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b01:system/blobs/vzw/etc/firmware/q6.b01 \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b03:system/blobs/vzw/etc/firmware/q6.b03 \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b04:system/blobs/vzw/etc/firmware/q6.b04 \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b05:system/blobs/vzw/etc/firmware/q6.b05 \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.b06:system/blobs/vzw/etc/firmware/q6.b06 \
-    vendor/samsung/jf-common/proprietary/blobs/vzw/etc/firmware/q6.mdt:system/blobs/vzw/etc/firmware/q6.mdt
+    vendor/samsung/jf-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/jf-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/samsung/jf-common/proprietary/rild/gsm/lib/libsec-ril.so:system/rild/gsm/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/rild/cdma/lib/libsec-ril.so:system/rild/cdma/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/rild/usc/lib/libsec-ril.so:system/rild/usc/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/rild/vzw/lib/libsec-ril.so:system/rild/vzw/lib/libsec-ril.so \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b00:system/rild/vzw/etc/firmware/q6.b00 \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b01:system/rild/vzw/etc/firmware/q6.b01 \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b03:system/rild/vzw/etc/firmware/q6.b03 \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b04:system/rild/vzw/etc/firmware/q6.b04 \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b05:system/rild/vzw/etc/firmware/q6.b05 \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b06:system/rild/vzw/etc/firmware/q6.b06 \
+    vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.mdt:system/rild/vzw/etc/firmware/q6.mdt
