@@ -184,8 +184,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/lib/libchromatix_s5k6b2yx_vt_hd.so:system/lib/libchromatix_s5k6b2yx_vt_hd.so \
     vendor/samsung/hlte-common/proprietary/lib/libchromatix_s5k6b2yx_vt.so:system/lib/libchromatix_s5k6b2yx_vt.so \
     vendor/samsung/hlte-common/proprietary/lib/libchromatix_s5k6b2yx_zslshot.so:system/lib/libchromatix_s5k6b2yx_zslshot.so \
-    vendor/samsung/hlte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/samsung/hlte-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/hlte-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/hlte-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/hlte-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
@@ -206,7 +206,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
     vendor/samsung/hlte-common/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
     vendor/samsung/hlte-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/hlte-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+    vendor/samsung/hlte-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
     vendor/samsung/hlte-common/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
