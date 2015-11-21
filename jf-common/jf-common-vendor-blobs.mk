@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -114,7 +114,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
 	vendor/samsung/jf-common/proprietary/vendor/firmware/vidc_1080p.fw:system/vendor/firmware/vidc_1080p.fw \
 	vendor/samsung/jf-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+	vendor/samsung/jf-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+	vendor/samsung/jf-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
 	vendor/samsung/jf-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+	vendor/samsung/jf-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+	vendor/samsung/jf-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
@@ -146,7 +150,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/lib/libsensirion_j1.so:system/lib/libsensirion_j1.so \
 	vendor/samsung/jf-common/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
 	vendor/samsung/jf-common/proprietary/lib/hw/sensorhubs.msm8960.so:system/lib/hw/sensorhubs.msm8960.so \
-	vendor/samsung/jf-common/proprietary/app/TimeService.apk:system/app/TimeService.apk \
 	vendor/samsung/jf-common/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/jf-common/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
