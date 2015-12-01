@@ -17,7 +17,8 @@
 # Pick up overlay for features that depend on non-open-source files
 
 PRODUCT_PACKAGES += \
-    TimeService
+    TimeService \
+    QuickBoot
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
