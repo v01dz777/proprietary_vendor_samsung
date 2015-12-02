@@ -13,6 +13,11 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+	vendor/samsung/kltekdi-felica-common/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+	vendor/samsung/kltekdi-felica-common/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+	vendor/samsung/kltekdi-felica-common/proprietary/snfc/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
+	vendor/samsung/kltekdi-felica-common/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
+	vendor/samsung/kltekdi-felica-common/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so \
 	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
 	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
 	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
