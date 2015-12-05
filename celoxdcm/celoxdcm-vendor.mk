@@ -15,4 +15,4 @@
 # Pick up overlay for features that depend on non-open-source files
 
 $(call inherit-product, vendor/samsung/celox-common/celox-vendor-blobs.mk)
-$(call inherit-product, vendor/samsung/skyrocket/skyrocket-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/celoxdcm/celoxdcm-vendor-blobs.mk)
