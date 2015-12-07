@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/jf-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/jf-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
+	vendor/samsung/jf-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
 	vendor/samsung/jf-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/samsung/jf-common/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/jf-common/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
