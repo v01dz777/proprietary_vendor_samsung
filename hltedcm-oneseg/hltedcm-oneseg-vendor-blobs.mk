@@ -61,15 +61,25 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/hltedcm-oneseg/proprietary/framework/minimode.jar:/system/framework/minimode.jar \
 	vendor/samsung/hltedcm-oneseg/proprietary/framework/sechardware.jar:/system/framework/sechardware.jar \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libBroadcastProcObs.so:/system/lib/libBroadcastProcObs.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libISDBT_tuner.so:/system/lib/libISDBT_tuner.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libOneSegfactorytest_jni_fb.so:/system/lib/libOneSegfactorytest_jni_fb.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libPGL.so:/system/lib/libPGL.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libbroadcastForOneSeg_jni.so:/system/lib/libbroadcastForOneSeg_jni.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libSDtvAout.so:/system/lib/libSDtvAout.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libSDtvService.so:/system/lib/libSDtvService.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libSDtvStack.so:/system/lib/libSDtvStack.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libSDtvVout.so:/system/lib/libSDtvVout.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libbroadcastForOneSeg_jni.so:/system/lib/libbroadcastForOneSeg_jni.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libmorpho_frame_interp2.so:/system/lib/libmorpho_frame_interp2.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libnextbitd.so:/system/lib/libnextbitd.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libnextbitservice_jni.so:/system/lib/libnextbitservice_jni.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libonesegbmlpeer.so:/system/lib/libonesegbmlpeer.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libonesegdmxdriver.so:/system/lib/libonesegdmxdriver.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libonesegdsmcc.so:/system/lib/libonesegdsmcc.so \
 	vendor/samsung/hltedcm-oneseg/proprietary/lib/libonesegsp.so:/system/lib/libonesegsp.so \
-	vendor/samsung/hltedcm-oneseg/proprietary/lib/libonesegutils.so:/system/lib/libonesegutils.so
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libonesegutils.so:/system/lib/libonesegutils.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libsdsmcc.so:/system/lib/libsdsmcc.so \
+	vendor/samsung/hltedcm-oneseg/proprietary/lib/libsdtvh264decoder.so:/system/lib/libsdtvh264decoder.so
 
 PRODUCT_COPY_FILES += \
 	vendor/samsung/hltedcm-oneseg/proprietary/framework/twframework-res.apk:/system/framework/twframework-res.apk \
