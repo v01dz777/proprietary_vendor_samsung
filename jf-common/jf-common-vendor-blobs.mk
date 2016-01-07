@@ -252,7 +252,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqcci_legacy.so:system/rild/usc/vendor/lib/libqcci_legacy.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi.so:system/rild/usc/vendor/lib/libqmi.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_cci.so:system/rild/usc/vendor/lib/libqmi_cci.so \
-	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_client_qmux.so:system/rild/usc/rild/usc/vendor/lib/libqmi_client_qmux.so \
+	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_client_qmux.so:system/rild/usc/vendor/lib/libqmi_client_qmux.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_common_so.so:system/rild/usc/vendor/lib/libqmi_common_so.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_csi.so:system/rild/usc/vendor/lib/libqmi_csi.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_encdec.so:system/rild/usc/vendor/lib/libqmi_encdec.so \
