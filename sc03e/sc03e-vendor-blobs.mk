@@ -20,5 +20,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.smdk4x12.so:system/lib/hw/sensors.smdk4x12.so
+
+PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
     $(LOCAL_PATH)/proprietary/system/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
