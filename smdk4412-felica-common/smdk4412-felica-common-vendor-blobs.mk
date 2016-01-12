@@ -19,21 +19,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/init.carrier.rc:root/init.carrier.rc
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/system/app/FeliCaLock.apk:system/app/FeliCaLock.apk \
-    $(LOCAL_PATH)/proprietary/system/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
-    $(LOCAL_PATH)/proprietary/system/app/FeliCaRemoteLock3LM.apk:system/app/FeliCaRemoteLock3LM.apk \
-    $(LOCAL_PATH)/proprietary/system/app/FeliCaTest.apk:system/app/FeliCaTest.apk \
-    $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
-    $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
-    $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk \
-    $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
-    $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaWebPlugin.apk:system/app/MobileFeliCaWebPlugin.apk \
-    $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
-    $(LOCAL_PATH)/proprietary/system/bin/mfdp:system/bin/mfdp \
-    $(LOCAL_PATH)/proprietary/system/bin/mfsc:system/bin/mfsc \
-    $(LOCAL_PATH)/proprietary/system/lib/libcordon.so:system/lib/libcordon.so \
-    $(LOCAL_PATH)/proprietary/system/etc/felica/common.cfg:system/etc/felica/common.cfg \
-    $(LOCAL_PATH)/proprietary/system/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
-    $(LOCAL_PATH)/proprietary/system/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
-    $(LOCAL_PATH)/proprietary/system/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
-    $(LOCAL_PATH)/proprietary/system/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg
+	 $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
+	 $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
+	 $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
+	 $(LOCAL_PATH)/proprietary/system/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
+	 $(LOCAL_PATH)/proprietary/system/bin/mfdp:system/bin/mfdp \
+	 $(LOCAL_PATH)/proprietary/system/bin/mfsc:system/bin/mfsc \
+	 $(LOCAL_PATH)/proprietary/system/etc/felica/common.cfg:system/etc/felica/common.cfg \
+	 $(LOCAL_PATH)/proprietary/system/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+	 $(LOCAL_PATH)/proprietary/system/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+	 $(LOCAL_PATH)/proprietary/system/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+	 $(LOCAL_PATH)/proprietary/system/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+	 $(LOCAL_PATH)/proprietary/system/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg \
+	 $(LOCAL_PATH)/proprietary/system/lib/libcordon.so:system/lib/libcordon.so 
+
