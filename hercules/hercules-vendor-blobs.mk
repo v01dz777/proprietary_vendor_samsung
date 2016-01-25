@@ -14,9 +14,9 @@
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
-	vendor/samsung/hercules/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/samsung/hercules/proprietary/bin/qcks:system/bin/qcks \
-	vendor/samsung/hercules/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+	vendor/samsung/hercules/proprietary/bin/netmgrd:system/bin/netmgrd.exec \
+	vendor/samsung/hercules/proprietary/bin/qcks:system/bin/qcks.exec \
+	vendor/samsung/hercules/proprietary/bin/qmiproxy:system/bin/qmiproxy.exec \
 	vendor/samsung/hercules/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
 	vendor/samsung/hercules/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/hercules/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \

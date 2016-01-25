@@ -14,9 +14,9 @@
 
 # Proprietary files
 PRODUCT_COPY_FILES += \
-	vendor/samsung/skyrocket/proprietary/bin/netmgrd:system/bin/netmgrd \
-	vendor/samsung/skyrocket/proprietary/bin/qcks:system/bin/qcks \
-	vendor/samsung/skyrocket/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+	vendor/samsung/skyrocket/proprietary/bin/netmgrd:system/bin/netmgrd.exec \
+	vendor/samsung/skyrocket/proprietary/bin/qcks:system/bin/qcks.exec \
+	vendor/samsung/skyrocket/proprietary/bin/qmiproxy:system/bin/qmiproxy.exec \
 	vendor/samsung/skyrocket/proprietary/lib/hw/sensors.MSM8660_SURF.so:system/lib/hw/sensors.MSM8660_SURF.so \
 	vendor/samsung/skyrocket/proprietary/lib/libakm.so:system/lib/libakm.so \
 	vendor/samsung/skyrocket/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
