@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox-common/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
 	vendor/samsung/celox-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
 	vendor/samsung/celox-common/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
-	vendor/samsung/celox-common/proprietary/bin/mpdecision:system/bin/mpdecision \
+	vendor/samsung/celox-common/proprietary/bin/mpdecision:system/bin/mpdecision.exec \
 	vendor/samsung/celox-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/celox-common/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
 	vendor/samsung/celox-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
@@ -45,9 +45,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/celox-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
 	vendor/samsung/celox-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/celox-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-	vendor/samsung/celox-common/proprietary/bin/ks:system/bin/ks \
-	vendor/samsung/celox-common/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/celox-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+	vendor/samsung/celox-common/proprietary/bin/ks:system/bin/ks.exec \
+	vendor/samsung/celox-common/proprietary/bin/qmuxd:system/bin/qmuxd.exec \
+	vendor/samsung/celox-common/proprietary/bin/rmt_storage:system/bin/rmt_storage.exec \
 	vendor/samsung/celox-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/celox-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
 	vendor/samsung/celox-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
