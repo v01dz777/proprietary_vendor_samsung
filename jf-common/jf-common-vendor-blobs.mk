@@ -21,9 +21,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/jf-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335_murata.hcd \
-	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335_semco.hcd \
-	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335_semcosh.hcd \
+	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/jf-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/jf-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/jf-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
