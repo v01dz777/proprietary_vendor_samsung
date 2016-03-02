@@ -56,4 +56,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/kltekdi/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/kltekdi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/kltekdi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/kltekdi/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+    vendor/samsung/kltekdi/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/samsung/klte-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/klte-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/klte-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/klte-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/klte-common/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/klte-common/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+
