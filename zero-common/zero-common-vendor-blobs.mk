@@ -130,8 +130,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/seiren_fw_dram.bin:system/vendor/firmware/seiren_fw_dram.bin \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/seiren_fw_sram.bin:system/vendor/firmware/seiren_fw_sram.bin \
-	vendor/samsung/zero-common/proprietary/vendor/firmware/bcm4358A3_V0062.0099.hcd:system/vendor/firmware/bcm4358A3_V0062.0099.hcd \
-	vendor/samsung/zero-common/proprietary/vendor/firmware/bcm4358A3_V0062.0099_wisol.hcd:system/vendor/firmware/bcm4358A3_V0062.0099_wisol.hcd \
+	vendor/samsung/zero-common/proprietary/vendor/firmware/bcm4358A3_V0064.0105.hcd:system/vendor/firmware/bcm4358A3_V0064.0105.hcd \
+	vendor/samsung/zero-common/proprietary/vendor/firmware/bcm4358A3_V0064.0105_wisol.hcd:system/vendor/firmware/bcm4358A3_V0064.0105_wisol.hcd \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
 	vendor/samsung/zero-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
@@ -206,8 +206,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/zero-common/proprietary/vendor/firmware/sec_s3fwrn5p_firmware.bin:system/vendor/firmware/sec_s3fwrn5p_firmware.bin \
 	vendor/samsung/zero-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/zero-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
-	vendor/samsung/zero-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-	vendor/samsung/zero-common/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
 	vendor/samsung/zero-common/proprietary/lib/hw/sensors.universal7420.so:system/lib/hw/sensors.universal7420.so \
 	vendor/samsung/zero-common/proprietary/lib64/hw/sensors.universal7420.so:system/lib64/hw/sensors.universal7420.so \
 	vendor/samsung/zero-common/proprietary/bin/bcm_sensorhub_a2.patch:system/bin/bcm_sensorhub_a2.patch \
