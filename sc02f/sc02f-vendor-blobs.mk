@@ -345,6 +345,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sc02f/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/sc02f/proprietary/bin/efsks:system/bin/efsks \
+    vendor/samsung/sc02f/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/samsung/sc02f/proprietary/bin/ks:system/bin/ks \
     vendor/samsung/sc02f/proprietary/bin/qcks:system/bin/qcks \
     vendor/samsung/sc02f/proprietary/bin/qmuxd:system/bin/qmuxd \
