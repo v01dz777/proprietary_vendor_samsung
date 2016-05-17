@@ -397,7 +397,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/sc02f/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
 
 # spmode mail
-#PRODUCT_COPY_FILES += \
-#	vendor/samsung/sc02f/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier/SPModePushNotifier.apk \
-#	vendor/samsung/sc02f/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
-#	vendor/samsung/sc02f/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
+PRODUCT_COPY_FILES += \
+	vendor/samsung/sc02f/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier/SPModePushNotifier.apk \
+	vendor/samsung/sc02f/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
+	vendor/samsung/sc02f/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
