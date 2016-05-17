@@ -371,3 +371,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sc02f/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/sc02f/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/sc02f/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
+
+## FeliCa
+PRODUCT_COPY_FILES += \
+	vendor/samsung/sc02f/proprietary/felica/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
+	vendor/samsung/sc02f/proprietary/felica/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
+	vendor/samsung/sc02f/proprietary/felica/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
+	vendor/samsung/sc02f/proprietary/felica/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
+	vendor/samsung/sc02f/proprietary/felica/bin/mfdp:system/bin/mfdp \
+	vendor/samsung/sc02f/proprietary/felica/bin/mfsc:system/bin/mfsc \
+	vendor/samsung/sc02f/proprietary/felica/etc/felica/common.cfg:system/etc/felica/common.cfg \
+	vendor/samsung/sc02f/proprietary/felica/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+	vendor/samsung/sc02f/proprietary/felica/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+	vendor/samsung/sc02f/proprietary/felica/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+	vendor/samsung/sc02f/proprietary/felica/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+	vendor/samsung/sc02f/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg \
+	vendor/samsung/sc02f/proprietary/felica/lib/libcordon.so:system/lib/libcordon.so \
+
+## snfc
+PRODUCT_COPY_FILES += \
+	vendor/samsung/sc02f/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+	vendor/samsung/sc02f/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+	vendor/samsung/sc02f/proprietary/snfc/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
+	vendor/samsung/sc02f/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
+	vendor/samsung/sc02f/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
+
+# spmode mail
+#PRODUCT_COPY_FILES += \
+#	vendor/samsung/sc02f/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier/SPModePushNotifier.apk \
+#	vendor/samsung/sc02f/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
+#	vendor/samsung/sc02f/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
