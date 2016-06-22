@@ -19,18 +19,12 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/espresso-common/proprietary/system/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/espresso-common/proprietary/system/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/espresso-common/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/lib/hw/gps.manta.so:system/lib/hw/gps.omap4.so
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/espresso-common/proprietary/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/espresso-common/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/vendor/firmware/BCM4330.hcd:system/vendor/firmware/BCM4330.hcd \
@@ -39,6 +33,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/espresso-common/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
+    vendor/samsung/espresso-common/proprietary/system/vendor/lib/libdrmmtkutil.so:system/vendor/lib/libdrmmtkutil.so \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/espresso-common/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
