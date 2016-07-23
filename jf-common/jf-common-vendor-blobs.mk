@@ -162,7 +162,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/qcks:system/rild/gsm/bin/qcks \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/qmuxd:system/rild/gsm/bin/qmuxd \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/rild:system/rild/gsm/bin/rild \
-	vendor/samsung/jf-common/proprietary/rild/gsm/bin/rmt_storage:system/rild/gsm/bin/rmt_storage \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libatparser.so:system/rild/gsm/lib/libatparser.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libdsi_netctrl.so:system/rild/gsm/lib/libdsi_netctrl.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/lib/libdsutils.so:system/rild/gsm/lib/libdsutils.so \
