@@ -297,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sc02f/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/samsung/sc02f/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/sc02f/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
@@ -307,6 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sc02f/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/sc02f/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/sc02f/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/samsung/sc02f/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/sc02f/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
