@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/d2dcm/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
 	vendor/samsung/d2dcm/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/d2dcm/proprietary/bin/mfsc:system/bin/mfsc \
+	vendor/samsung/d2dcm/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/d2dcm/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
 	vendor/samsung/d2dcm/proprietary/etc/felica/air.png:system/etc/felica/air.png \
 	vendor/samsung/d2dcm/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
