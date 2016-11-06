@@ -12,11 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := manta/device-partial.mk
+# Widevine blob(s) necessary for Manta hardware
 
-$(call inherit-product-if-exists, vendor/audience/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/samsung/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/samsung/manta/widevine/$(LOCAL_STEM))
+PRODUCT_COPY_FILES += \
+    proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
+    proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
 
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+
+PRODUCT_PACKAGES := \
+    libwvdrm_L1 \
+    libWVStreamControlAPI_L1 \
+    libwvm \
+    libdrmwvmplugin \
+    libdrmdecrypt \
+    libwvdrmengine
