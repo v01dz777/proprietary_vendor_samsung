@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,8 +18,6 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/serrano-common/overlay
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-    libTimeService \
-    TimeService
+    libtime_genoff
 
 $(call inherit-product, vendor/samsung/serrano-common/serrano-common-vendor-blobs.mk)
