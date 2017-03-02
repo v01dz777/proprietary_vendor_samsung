@@ -1,5 +1,5 @@
-# Copyright (C) 2015 The CyanogenMod Project
-# Copyright (C) 2015 The JDCTeam
+# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2015-2017 The JDCTeam
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,6 +21,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/bin/radish:system/bin/radish \
 	vendor/samsung/jf-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
 	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm4335_V0343.0353.hcd:system/vendor/firmware/bcm4335.hcd \
 	vendor/samsung/jf-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/jf-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -103,7 +108,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/samsung/jf-common/proprietary/bin/insthk:system/bin/insthk \
 	vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
 	vendor/samsung/jf-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
@@ -131,9 +138,21 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
 	vendor/samsung/jf-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
 	vendor/samsung/jf-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/efsks:system/rild/gsm/bin/efsks \
 	vendor/samsung/jf-common/proprietary/rild/gsm/bin/ks:system/rild/gsm/bin/ks \
@@ -267,5 +286,3 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libqmi_encdec.so:system/rild/vzw/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libqmiservices.so:system/rild/vzw/vendor/lib/libqmiservices.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libril-qcril-hook-oem.so:system/rild/vzw/vendor/lib/libril-qcril-hook-oem.so
-
-$(call inherit-product, vendor/qcom/binaries/msm8960/graphics/graphics-vendor.mk)
