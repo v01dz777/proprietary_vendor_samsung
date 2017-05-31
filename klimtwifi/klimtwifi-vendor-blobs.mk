@@ -17,7 +17,6 @@
 
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimtwifi/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_apsta.bin_a0:system/etc/wifi/bcmdhd_apsta.bin_a0 \
     vendor/samsung/klimtwifi/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
