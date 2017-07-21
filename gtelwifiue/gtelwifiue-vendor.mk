@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtelwifiue/proprietary/lib/hw/sensors.msm8916.so:system/lib/hw/sensors.msm8916.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libAl_Awb.so:system/lib/libAl_Awb.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libAl_Awb_Sp.so:system/lib/libAl_Awb_Sp.so \
-    vendor/samsung/gtelwifiue/proprietary/lib/libQjpeg.so:system/lib/libQjpeg.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libaec_algo_front.so:system/lib/libaec_algo_front.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libaec_algo_rear.so:system/lib/libaec_algo_rear.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libaf_algo_rear.so:system/lib/libaf_algo_rear.so \
@@ -36,6 +35,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera_cac2_lib_13M.so:system/lib/libmmcamera_cac2_lib_13M.so \
     vendor/samsung/gtelwifiue/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -73,4 +75,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/samsung/gtelwifiue/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so

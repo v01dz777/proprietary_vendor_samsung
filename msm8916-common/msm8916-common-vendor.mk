@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/msm8916-common/proprietary/etc/somxreg.conf:system/etc/somxreg.conf \
     vendor/samsung/msm8916-common/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/msm8916-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/msm8916-common/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/msm8916-common/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/samsung/msm8916-common/proprietary/lib/libatparser.so:system/lib/libatparser.so \
@@ -74,12 +73,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/msm8916-common/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/msm8916-common/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/samsung/msm8916-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/msm8916-common/proprietary/lib/libjpega.so:system/lib/libjpega.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/samsung/msm8916-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/msm8916-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/samsung/msm8916-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/msm8916-common/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
@@ -130,6 +125,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libSubSystemShutdown.so:system/vendor/lib/libSubSystemShutdown.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
@@ -183,6 +179,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/samsung/msm8916-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/samsung/msm8916-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
@@ -209,6 +206,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/msm8916-common/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
+    libloc_ds_api \
     libHevcSwDecoder \
     libqct_resampler \
     libtime_genoff \
