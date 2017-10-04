@@ -165,12 +165,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
     vendor/samsung/klte-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/klte-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0375.0766_wisol.hcd:system/vendor/firmware/bcm4350_V0375.0766_wisol.hcd \
-    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0375.0768.hcd:system/vendor/firmware/bcm4350_V0375.0768.hcd \
-    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0375.0768_murata.hcd:system/vendor/firmware/bcm4350_V0375.0768_murata.hcd \
-    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0375.0768_semco.hcd:system/vendor/firmware/bcm4350_V0375.0768_semco.hcd \
-    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0375.0768_semcosh.hcd:system/vendor/firmware/bcm4350_V0375.0768_semcosh.hcd \
-    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0375.0768_semcove.hcd:system/vendor/firmware/bcm4350_V0375.0768_semcove.hcd \
+    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0395.0797_murata.hcd:system/vendor/firmware/bcm4350_V0395.0797_murata.hcd \
+    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0395.0797_semco.hcd:system/vendor/firmware/bcm4350_V0395.0797_semco.hcd \
+    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0395.0797_semcosh.hcd:system/vendor/firmware/bcm4350_V0395.0797_semcosh.hcd \
+    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0395.0797_semcove.hcd:system/vendor/firmware/bcm4350_V0395.0797_semcove.hcd \
+    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0395.0797.hcd:system/vendor/firmware/bcm4350_V0395.0797.hcd \
+    vendor/samsung/klte-common/proprietary/vendor/firmware/bcm4350_V0395.0798_wisol.hcd:system/vendor/firmware/bcm4350_V0395.0798_wisol.hcd \
     vendor/samsung/klte-common/proprietary/vendor/lib/C16QL_libchromatix_s5k2p2xx_common.so:system/vendor/lib/C16QL_libchromatix_s5k2p2xx_common.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/C16QL_libchromatix_s5k2p2xx_common_res0.so:system/vendor/lib/C16QL_libchromatix_s5k2p2xx_common_res0.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/C16QL_libchromatix_s5k2p2xx_common_res1.so:system/vendor/lib/C16QL_libchromatix_s5k2p2xx_common_res1.so \
@@ -194,8 +194,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -204,7 +202,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -250,7 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmmcamera2_companion_imx240.so:system/vendor/lib/libmmcamera2_companion_imx240.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmmcamera2_companion_s5k2p2xx.so:system/vendor/lib/libmmcamera2_companion_s5k2p2xx.so \
@@ -270,7 +266,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmmcamera_imx240.so:system/vendor/lib/libmmcamera_imx240.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmmcamera_s5k2p2xx.so:system/vendor/lib/libmmcamera_s5k2p2xx.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libmmcamera_s5k8b1yx.so:system/vendor/lib/libmmcamera_s5k8b1yx.so \
-    vendor/samsung/klte-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/samsung/klte-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \

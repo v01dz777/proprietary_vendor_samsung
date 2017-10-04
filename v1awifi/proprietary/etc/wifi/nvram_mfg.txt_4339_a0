@@ -6,8 +6,13 @@ boardflags=0x10401001
 boardflags2=0x0
 boardflags3=0x810c489
 macaddr=00:90:4c:c5:12:38
+<<<<<<< HEAD
 ccode=ALL
 regrev=0
+=======
+ccode=00
+regrev=6
+>>>>>>> pet/cm-14.1
 antswitch=0
 pdgain5g=1
 pdgain2g=1
