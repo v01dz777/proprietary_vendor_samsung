@@ -19,7 +19,7 @@
 PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
 	vendor/samsung/jf-common/proprietary/vendor/bin/radish:system/vendor/bin/radish \
-	vendor/samsung/jf-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+	vendor/samsung/jf-common/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
