@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libhdcp2.so:system/vendor/lib/libhdcp2.so \
 	vendor/samsung/jf-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-	vendor/samsung/jf-common/proprietary/etc/sec_config:system/etc/sec_config \
+	vendor/samsung/jf-common/proprietary/vendor/etc/sec_config:system/vendor/etc/sec_config \
 	vendor/samsung/jf-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
