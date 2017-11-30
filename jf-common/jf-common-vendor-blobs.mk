@@ -122,14 +122,10 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
 	vendor/samsung/jf-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
 	vendor/samsung/jf-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-	vendor/samsung/jf-common/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/libloc_eng.so:system/vendor/lib/libloc_eng.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/samsung/jf-common/proprietary/vendor/bin/insthk:system/vendor/bin/insthk \
 	vendor/samsung/jf-common/proprietary/etc/srm.bin:system/etc/srm.bin \
