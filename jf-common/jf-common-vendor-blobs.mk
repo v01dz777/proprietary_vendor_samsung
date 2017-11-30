@@ -123,6 +123,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
 	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_firmware.ncd:system/vendor/firmware/bcm2079xB4_firmware.ncd \
 	vendor/samsung/jf-common/proprietary/vendor/firmware/bcm2079xB4_pre_firmware.ncd:system/vendor/firmware/bcm2079xB4_pre_firmware.ncd \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libsam.so:system/vendor/lib/libsam.so \
@@ -172,7 +173,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libqmi_client_qmux.so:system/rild/gsm/vendor/lib/libqmi_client_qmux.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libqmiservices.so:system/rild/gsm/vendor/lib/libqmiservices.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libreference-ril.so:system/rild/gsm/vendor/lib/libreference-ril.so \
-	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libril-qc-qmi-1.so:system/rild/gsm/vendor/lib/libril-qc-qmi-1.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libril-qcril-external.so:system/rild/gsm/vendor/lib/libril-qcril-external.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libril-qcril-hook-oem.so:system/rild/gsm/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/jf-common/proprietary/rild/gsm/vendor/lib/libsecril-client.so:system/rild/gsm/vendor/lib/libsecril-client.so \
@@ -208,7 +208,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libqmi_encdec.so:system/rild/cdma/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libqmiservices.so:system/rild/cdma/vendor/lib/libqmiservices.so \
 	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libril-qcril-hook-oem.so:system/rild/cdma/vendor/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/jf-common/proprietary/rild/cdma/vendor/lib/libsec-ril.so:system/rild/cdma/vendor/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/bin/efsks:system/rild/usc/vendor/bin/efsks \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/bin/ks:system/rild/usc/vendor/bin/ks \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/bin/netmgrd:system/rild/usc/vendor/bin/netmgrd \
@@ -236,7 +235,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmi_encdec.so:system/rild/usc/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libqmiservices.so:system/rild/usc/vendor/lib/libqmiservices.so \
 	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libril-qcril-hook-oem.so:system/rild/usc/vendor/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/jf-common/proprietary/rild/usc/vendor/lib/libsec-ril.so:system/rild/usc/vendor/lib/libsec-ril.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b00:system/rild/vzw/etc/firmware/q6.b00 \
 	vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b01:system/rild/vzw/etc/firmware/q6.b01 \
 	vendor/samsung/jf-common/proprietary/rild/vzw/etc/firmware/q6.b03:system/rild/vzw/etc/firmware/q6.b03 \
@@ -275,5 +273,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libqmi_csi.so:system/rild/vzw/vendor/lib/libqmi_csi.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libqmi_encdec.so:system/rild/vzw/vendor/lib/libqmi_encdec.so \
 	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libqmiservices.so:system/rild/vzw/vendor/lib/libqmiservices.so \
-	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libril-qcril-hook-oem.so:system/rild/vzw/vendor/lib/libril-qcril-hook-oem.so \
-	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libsec-ril.so:system/rild/vzw/vendor/lib/libsec-ril.so
+	vendor/samsung/jf-common/proprietary/rild/vzw/vendor/lib/libril-qcril-hook-oem.so:system/rild/vzw/vendor/lib/libril-qcril-hook-oem.so
