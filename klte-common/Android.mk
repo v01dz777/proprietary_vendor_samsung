@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter klte kltechn kltechnduo klteduos kltedv kltekdi kltespr klteusc kltevzw kltedcm kltedcmactive,$(TARGET_DEVICE)),)
+ifneq ($(filter klte kltechn kltechnduo klteduos kltedv kltekdi kltekor kltespr kltesprsports klteusc kltevzw kltedcm kltedcmactive,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
