@@ -16,4 +16,11 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+PRODUCT_PACKAGES += \
+	FeliCaLock \
+	MobileFeliCaClient\
+	MobileFeliCaMenuApp \
+	MobileFeliCaSettingApp\
+	MobileFeliCaWebPluginBoot
+
 $(call inherit-product, vendor/samsung/kltedcm/kltedcm-vendor-blobs.mk)

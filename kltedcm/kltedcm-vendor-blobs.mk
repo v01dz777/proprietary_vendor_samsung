@@ -26,11 +26,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/kltedcm/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg \
 	vendor/samsung/kltedcm/proprietary/felica/lib/libcordon.so:system/lib/libcordon.so \
 
-BUILT_PREBUILD += \
-	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
-	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
-	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
-	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
+#PRODUCT_COPY_FILES += \
+#	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
+#	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
+#	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
+#	vendor/samsung/kltedcm/proprietary/felica/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
 
 ## snfc
 PRODUCT_COPY_FILES += \
