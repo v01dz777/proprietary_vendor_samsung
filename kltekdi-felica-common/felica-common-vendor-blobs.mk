@@ -18,10 +18,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/kltekdi-felica-common/proprietary/snfc/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
 	vendor/samsung/kltekdi-felica-common/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
 	vendor/samsung/kltekdi-felica-common/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so \
-	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
-	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
-	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
-	vendor/samsung/kltekdi-felica-common/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
 	vendor/samsung/kltekdi-felica-common/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/kltekdi-felica-common/proprietary/bin/mfsc:system/bin/mfsc \
 	vendor/samsung/kltekdi-felica-common/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
