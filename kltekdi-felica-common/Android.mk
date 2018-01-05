@@ -19,7 +19,7 @@ ifneq ($(filter kltekdi,$(TARGET_DEVICE)),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := FeliCaLock
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/FeliCaLock.apk
+LOCAL_SRC_FILES := proprietary/app/FeliCaLock/FeliCaLock.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -40,7 +40,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaClient
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaClient.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaClient/MobileFeliCaClient.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -50,7 +50,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaMenuApp
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaMenuApp.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -60,7 +60,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaSettingApp
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaSettingApp.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
@@ -70,7 +70,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := MobileFeliCaWebPluginBoot
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := proprietary/app/MobileFeliCaWebPluginBoot.apk
+LOCAL_SRC_FILES := proprietary/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
