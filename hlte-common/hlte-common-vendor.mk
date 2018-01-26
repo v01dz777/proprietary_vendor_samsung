@@ -53,16 +53,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:system/vendor/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/cred.conf:system/vendor/etc/wifi/cred.conf \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_muratafem1:system/vendor/etc/wifi/nvram_mfg.txt_muratafem1 \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_murata:system/vendor/etc/wifi/nvram_mfg.txt_murata \
+    vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_muratafem1:system/vendor/etc/wifi/nvram_mfg.txt_muratafem1 \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_semco3rd:system/vendor/etc/wifi/nvram_mfg.txt_semco3rd \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_mfg.txt_wisol:system/vendor/etc/wifi/nvram_mfg.txt_wisol \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_net.txt_muratafem1:system/vendor/etc/wifi/nvram_net.txt_muratafem1 \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:system/vendor/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_net.txt_muratafem1:system/vendor/etc/wifi/nvram_net.txt_muratafem1 \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_net.txt_semco3rd:system/vendor/etc/wifi/nvram_net.txt_semco3rd \
     vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:system/vendor/etc/wifi/nvram_net.txt_wisol \
-    vendor/samsung/hlte-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:system/vendor/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/hlte-common/proprietary/vendor/lib/C13QL_libTsAe.so:system/vendor/lib/C13QL_libTsAe.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/C13QL_libTsAf.so:system/vendor/lib/C13QL_libTsAf.so \
     vendor/samsung/hlte-common/proprietary/vendor/lib/C13QL_libTs_J_Accm.so:system/vendor/lib/C13QL_libTs_J_Accm.so \
