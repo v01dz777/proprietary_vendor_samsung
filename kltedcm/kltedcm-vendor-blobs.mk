@@ -37,9 +37,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/kltedcm/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
 	vendor/samsung/kltedcm/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
 	vendor/samsung/kltedcm/proprietary/snfc/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
-	vendor/samsung/kltedcm/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
 	vendor/samsung/kltedcm/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
-
+	#vendor/samsung/kltedcm/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
 # spmode mail
 #PRODUCT_COPY_FILES += \
 #	vendor/samsung/kltedcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier/SPModePushNotifier.apk \
