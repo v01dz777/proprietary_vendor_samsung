@@ -16,13 +16,6 @@
 
 # felica
 PRODUCT_COPY_FILES += \
-	vendor/samsung/jfltedcm/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock/FeliCaLock.apk \
-	vendor/samsung/jfltedcm/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock/FeliCaRemoteLock.apk \
-	vendor/samsung/jfltedcm/proprietary/app/FeliCaTest.apk:system/app/FeliCaTest/FeliCaTest.apk \
-	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
-	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
-	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
-	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
 	vendor/samsung/jfltedcm/proprietary/bin/mfdp:system/bin/mfdp \
 	vendor/samsung/jfltedcm/proprietary/bin/mfsc:system/bin/mfsc \
 	vendor/samsung/jfltedcm/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
@@ -32,16 +25,25 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jfltedcm/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
 	vendor/samsung/jfltedcm/proprietary/lib/libcordon.so:system/lib/libcordon.so
 
+PRODUCT_COPY_FILES += \
+#	vendor/samsung/jfltedcm/proprietary/app/FeliCaLock.apk:system/app/FeliCaLock/FeliCaLock.apk \
+#	vendor/samsung/jfltedcm/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock/FeliCaRemoteLock.apk \
+#	vendor/samsung/jfltedcm/proprietary/app/FeliCaTest.apk:system/app/FeliCaTest/FeliCaTest.apk \
+#	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
+#	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
+#	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
+#	vendor/samsung/jfltedcm/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
+
 # nfc
 PRODUCT_COPY_FILES += \
 	vendor/samsung/jfltedcm/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
 	vendor/samsung/jfltedcm/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
 	vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
-	vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
-	vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
+	vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so \
+#	vendor/samsung/jfltedcm/proprietary/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
 
 # spmode mail
 PRODUCT_COPY_FILES += \
-	vendor/samsung/jfltedcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier/SPModePushNotifier.apk \
-	vendor/samsung/jfltedcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
-	vendor/samsung/jfltedcm/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
+#	vendor/samsung/jfltedcm/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier/SPModePushNotifier.apk \
+#	vendor/samsung/jfltedcm/proprietary/fonts/truetypeEmoji.ttf:system/fonts/truetypeEmoji.ttf \
+#	vendor/samsung/jfltedcm/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so
