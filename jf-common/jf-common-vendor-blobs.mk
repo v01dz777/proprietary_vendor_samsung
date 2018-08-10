@@ -128,7 +128,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libimage-jpeg-enc-omx-comp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimage-jpeg-enc-omx-comp.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libimage-omx-common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimage-omx-common.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/libldacBT_enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libldacBT_enc.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/libldacBT_enc.so::system/vendor/lib/libldacBT_enc.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
