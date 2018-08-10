@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/jf-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/hw/camera.vendor.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8960.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/hw/sensorhubs.msm8960.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.msm8960.so \
-	vendor/samsung/jf-common/proprietary/vendor/lib/sensors.msm8960.so:system/vendor/lib/sensors.vendor.msm8960.so \
+	vendor/samsung/jf-common/proprietary/vendor/lib/sensors.vendor.msm8960.so:system/vendor/lib/sensors.vendor.msm8960.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
 	vendor/samsung/jf-common/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
